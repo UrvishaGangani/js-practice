@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.main-div{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #D6DAC8;
+    max-width: 400px;
+}
+.main-div div{
+    margin: 10px 0;
+}
+.error { color: red; font-size: 0.9em; margin-left: 10px; }
+#result{font-weight: bold;}
