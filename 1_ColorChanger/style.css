@@ -1,0 +1,29 @@
+.button{
+background-color: #fff;
+padding: 20px 30px;
+margin: 0 10px;
+border-radius: 5px;
+color: #212121;
+text-decoration: none;
+border: 3px solid #212121;
+}
+
+.button-div{
+    margin: 20px 0;
+}
+
+#grey{
+    background-color: #8ABEB9
+}
+#green{
+    background-color: #7ADAA5;
+}
+#orange{
+    background-color:#E9B63B
+}
+#pink{
+    background-color: #F5CBCB;
+}
+#blue{
+    background-color:#0F828C;
+}
