@@ -1,0 +1,14 @@
+#time{
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 25px;
+    max-width: 200px;
+    border-radius: 8px;
+    font-weight: bolder;
+    box-shadow: 0 0 5px burlywood;
+}
+#date{
+    font-weight: bold;
+}
