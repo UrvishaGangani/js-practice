@@ -1,4 +1,4 @@
-// const min = 0 
+// const min = 0
 // const max = 6
 
 // const randomNumber = Math.floor(Math.random() * (max-min +1));
@@ -41,9 +41,10 @@
 // console.log(result)
 // console.log(`gameName Object output -- ${gameName} \n gName string output -- ${gName}`)
 
-const mynums = [1, 2, 3, 4, 5, 6, 7]
-const result = mynums.reduce(function (acc, currentvalue) {
-    console.log(`acc: ${acc} and Current value : ${currentvalue}`)
-    return acc + currentvalue
-}, 0)
-console.log(result)
+// const mynums = [1, 2, 3, 4, 5, 6, 7]
+// const result = mynums.reduce(function (acc, currentvalue) {
+//     console.log(`acc: ${acc} and Current value : ${currentvalue}`)
+//     return acc + currentvalue
+// }, 0)
+// console.log(result)
+
