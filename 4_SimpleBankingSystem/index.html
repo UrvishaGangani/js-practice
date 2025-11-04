@@ -14,7 +14,24 @@
 </head>
 <body>
     <h1 class="main-heading">Banking System</h1>
-    <script src="index.js"></script>
+    <div class="card">
+    <form id="creatAccountForm">
+        <h2>Create Account</h2>
+        <input type="text" id="accountHolder" placeholder="Account Holder Name" required>
+        <input type="text" id="accountNumber" placeholder="Account Number" required>
+        <button type="submit">Create Account</button>
+    </form>
+    <p id="info"></p>
+    <div id="actions">
+        <h2>Manage Account</h2>
+        <button id="depositeBtn">Deposite</button>
+        <button id="withdrawBtn">Withdraw</button>
+        <button id="balanceBtn">Check Balance</button>
+        <p id="accountDisplay"></p>
+    </div>
+    </div>
+    <script src="bankAccount.js"></script>
+    <script type="module" src="index.js" ></script>
 
 </body>
 </html>
