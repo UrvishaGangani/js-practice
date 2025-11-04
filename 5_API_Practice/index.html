@@ -67,12 +67,22 @@ h1 {
 .links a:hover {
   text-decoration: underline;
 }
-
+.selectThemeColor{
+    margin: 10px 0 30px;
+    text-align: center;
+}
+.selectThemeColor h4, .selectThemeColor button{display: inline-block;}
     </style>
 </head>
 <body>
     <h1>GitHub Users</h1>
+    <div class="selectThemeColor">
+        <h4>Select Background : </h4>
+        <button id="orange">Black</button> 
+        <button id="grey">Grey</button>
+    </div> 
     <div id="usersCard" class="user-container"></div>
     <script src="index.js"></script>
 </body>
+
 </html>
