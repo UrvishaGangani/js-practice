@@ -49,15 +49,12 @@ async function createUserCards() {
     console.error("Error fetching user:", error);
   }
 }
-
 createUserCards();
-
 
 function buttonClickHandler(color) {
     return function() {
         document.body.style.backgroundColor = `${ color }`;
     }
 }
-
 document.getElementById("orange").onclick = buttonClickHandler("orange");
 document.getElementById('grey').onclick=buttonClickHandler('grey')
